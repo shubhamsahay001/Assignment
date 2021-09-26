@@ -136,8 +136,8 @@
                 "height": 80
               },
               "position": {
-                "x": 842,
-                "y": 371
+                "x": 868,
+                "y": 375
               },
               "angle": 0,
               "id": "0320528e-a731-4c35-8e31-fe91d4692b4a",
@@ -421,8 +421,7 @@
                 "id": "0320528e-a731-4c35-8e31-fe91d4692b4a"
               },
               "target": {
-                "x": 608,
-                "y": 327
+                "id": "752edcb5-87ba-44a6-b7e3-00e75ce35b4e"
               },
               "vertices": [
                 {
@@ -432,14 +431,6 @@
                 {
                   "x": 679,
                   "y": 369
-                },
-                {
-                  "x": 610,
-                  "y": 332
-                },
-                {
-                  "x": 604,
-                  "y": 334
                 }
               ],
               "id": "9549126b-7bb3-42eb-af27-bc2d1fd0b4cc",
@@ -472,6 +463,11 @@
           "height": 590,
           "width": 1153
         }
+      },
+      {
+        "title": "Data Flow Diagram Level-1",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 1
       }
     ],
     "reviewer": ""
