@@ -70,6 +70,53 @@
                   "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "ff6add5f-031d-4390-80a5-64c45d8e995e"
+              },
+              "target": {
+                "id": "9a137f01-11f5-4d97-adbd-59190f0e5cc8"
+              },
+              "vertices": [
+                {
+                  "x": 106,
+                  "y": 241
+                },
+                {
+                  "x": 126,
+                  "y": 345
+                },
+                {
+                  "x": 81,
+                  "y": 355
+                }
+              ],
+              "id": "ec916d8d-a34c-4924-9fdf-6a133731f496",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 2",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
