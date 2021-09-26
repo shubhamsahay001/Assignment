@@ -10,11 +10,17 @@
       },
       {
         "name": "Anurag Deep"
+      },
+      {
+        "name": "Shubham Sahay"
+      },
+      {
+        "name": "Nisha Bisht"
       }
     ],
     "diagrams": [
       {
-        "title": "DFD",
+        "title": "Data Flow Diagram",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0,
         "diagramJson": {
