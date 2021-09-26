@@ -12,7 +12,13 @@
         "name": "Anurag Deep"
       }
     ],
-    "diagrams": [],
+    "diagrams": [
+      {
+        "title": "DFD",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
     "reviewer": ""
   }
 }
