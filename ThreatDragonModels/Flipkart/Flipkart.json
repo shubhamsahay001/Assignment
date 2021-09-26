@@ -465,27 +465,6 @@
                   "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
-            },
-            {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "x": 824,
-                "y": 263
-              },
-              "target": {
-                "x": 666,
-                "y": 428
-              },
-              "vertices": [
-                {
-                  "x": 799,
-                  "y": 372
-                }
-              ],
-              "id": "5a64afc4-1ba2-4cfb-abb2-de35d586580f",
-              "z": 15,
-              "attrs": {}
             }
           ]
         },
