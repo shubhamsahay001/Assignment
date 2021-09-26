@@ -444,7 +444,7 @@
               },
               "position": {
                 "x": 846,
-                "y": 385
+                "y": 379
               },
               "angle": 0,
               "id": "c99e174b-fa05-490d-b8b2-ba239bc71ae1",
@@ -453,6 +453,7 @@
               "isALog": true,
               "storesCredentials": true,
               "isEncrypted": true,
+              "threats": [],
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -464,6 +465,27 @@
                   "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 824,
+                "y": 263
+              },
+              "target": {
+                "x": 666,
+                "y": 428
+              },
+              "vertices": [
+                {
+                  "x": 799,
+                  "y": 372
+                }
+              ],
+              "id": "5a64afc4-1ba2-4cfb-abb2-de35d586580f",
+              "z": 15,
+              "attrs": {}
             }
           ]
         },
