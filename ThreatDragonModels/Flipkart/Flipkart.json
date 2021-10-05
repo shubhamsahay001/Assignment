@@ -486,22 +486,40 @@
                 "height": 80
               },
               "position": {
-                "x": 70,
-                "y": 249
+                "x": 84,
+                "y": 268
               },
               "angle": 0,
               "id": "7fed9f74-252a-483d-b12d-a125732fa8b3",
               "z": 1,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "Phishing",
+                  "type": "Spoofing",
+                  "mitigation": "AntiVirus\nFirewalls and IDS",
+                  "description": "Some malicious attackers can try to imitate the product's UI to get details of the customers."
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "XSS",
+                  "type": "Information disclosure",
+                  "description": "Attackers can try to inject malicious code from the UI.",
+                  "mitigation": "Input Validation"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Customer"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -518,16 +536,34 @@
               "angle": 0,
               "id": "c9cd3264-a6d0-4729-9b71-21149083926a",
               "z": 2,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "title": "Phishing",
+                  "description": "Some malicious users can try to create UI similar to the app and get customers' details.",
+                  "mitigation": "Antivirus\nFirewall and IDS"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "XSS",
+                  "type": "Information disclosure",
+                  "description": "Attackers can try to inject malicious code from the UI.",
+                  "mitigation": "Input Validation"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Seller"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -538,8 +574,8 @@
                 "height": 80
               },
               "position": {
-                "x": 915,
-                "y": 121
+                "x": 1097,
+                "y": 54
               },
               "angle": 0,
               "id": "57b352ae-e212-420e-9db4-887383d288da",
@@ -564,8 +600,8 @@
                 "height": 80
               },
               "position": {
-                "x": 916,
-                "y": 269
+                "x": 1104,
+                "y": 263
               },
               "angle": 0,
               "id": "d5e4bce7-ad03-4242-96e5-9f810d4cd5a9",
@@ -590,8 +626,8 @@
                 "height": 80
               },
               "position": {
-                "x": 877,
-                "y": 423
+                "x": 1042,
+                "y": 553
               },
               "angle": 0,
               "id": "7275b514-1528-49a3-b05f-4a8f29357375",
@@ -852,14 +888,19 @@
               "target": {
                 "id": "392ebba9-7288-4548-9501-1d8e4b2f3c91"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 255,
+                  "y": 205
+                }
+              ],
               "id": "712630b2-dabe-421e-af22-aafaf05abd70",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 14",
+                      "text": "credentials",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -867,13 +908,23 @@
                 }
               ],
               "z": 15,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Man in the middle",
+                  "type": "Information disclosure",
+                  "description": "Unauthorized user can try to steal data by sitting between the customer and the Flipkart app",
+                  "mitigation": "Cryptography\nHashing\nDigital Signatures/Certificates"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -1226,14 +1277,19 @@
               "target": {
                 "id": "32e0c57b-24cb-4795-a01a-de87865b3d6e"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 278,
+                  "y": 509
+                }
+              ],
               "id": "4e0ffa51-caec-4375-8ca1-97eec36151c0",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 25",
+                      "text": "credentials",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1241,13 +1297,23 @@
                 }
               ],
               "z": 26,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "Man in the middle",
+                  "description": "Unauthorized user can try to steal data by sitting between the customer and the Flipkart app",
+                  "mitigation": "Hashing\nCryptography\nDigital Signature/Certificates"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -1576,12 +1642,83 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 169,
+                "y": 188
+              },
+              "target": {
+                "x": 177,
+                "y": 589
+              },
+              "vertices": [
+                {
+                  "x": 179,
+                  "y": 199
+                },
+                {
+                  "x": 341,
+                  "y": 393
+                },
+                {
+                  "x": 295,
+                  "y": 568
+                }
+              ],
+              "id": "825fac25-1e93-4c66-9b2c-027eec2aa3f4",
+              "z": 36,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 1008,
+                "y": 56
+              },
+              "target": {
+                "x": 1134,
+                "y": 425
+              },
+              "vertices": [
+                {
+                  "x": 1009,
+                  "y": 238
+                }
+              ],
+              "id": "bdc9c658-7692-46ee-8f0a-28808ca08038",
+              "z": 37,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 1110,
+                "y": 480
+              },
+              "target": {
+                "x": 1102,
+                "y": 678
+              },
+              "vertices": [
+                {
+                  "x": 950,
+                  "y": 636
+                }
+              ],
+              "id": "7d36e150-2984-4487-85db-0dd00bffb57c",
+              "z": 38,
+              "attrs": {}
             }
           ]
         },
         "size": {
           "height": 1025,
-          "width": 1173
+          "width": 1533.8797607421875
         }
       }
     ],
