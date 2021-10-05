@@ -509,6 +509,14 @@
                   "type": "Information disclosure",
                   "description": "Attackers can try to inject malicious code from the UI.",
                   "mitigation": "Input Validation"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Cookie stealing",
+                  "type": "Elevation of privilege",
+                  "description": "Attackers can try to steal cookies from Flipkart plus members",
+                  "mitigation": "Cryptography\nSession management\nAccess control list"
                 }
               ],
               "attrs": {
@@ -580,16 +588,26 @@
               "angle": 0,
               "id": "57b352ae-e212-420e-9db4-887383d288da",
               "z": 3,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Repudiation",
+                  "type": "Repudiation",
+                  "description": "User may claim he/she has not sent or received a certain message or mail.",
+                  "mitigation": "Proper logging"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Mail/Message\nApplication"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -606,16 +624,26 @@
               "angle": 0,
               "id": "d5e4bce7-ad03-4242-96e5-9f810d4cd5a9",
               "z": 4,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Man in the middle attack",
+                  "type": "Information disclosure",
+                  "description": "Attackers can try to steal the payment credentials of users by establishing themselves between user and payment gateway.",
+                  "mitigation": "Cryptography\nMulti factor authentication\nDigital Signatures"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Payment Application"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -632,16 +660,42 @@
               "angle": 0,
               "id": "7275b514-1528-49a3-b05f-4a8f29357375",
               "z": 5,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "SQL Injection",
+                  "type": "Tampering",
+                  "description": "Attackers can try to run malicious SQL commands to tamper or retrieve information.",
+                  "mitigation": "Input Sanitization\nUse of prepared statements\nAccess control list"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Repudiation",
+                  "type": "Repudiation",
+                  "description": "Attackers/Users can deny performing a certain database operation.",
+                  "mitigation": "Transaction logging\nAccess control list"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Database inaccessibility",
+                  "type": "Denial of service",
+                  "description": "Attackers can flood databases with fake transaction requests to cause the unavailability of databases for intended users.",
+                  "mitigation": "Firewall and IDS\nAccess control list"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Database"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -762,16 +816,26 @@
               "angle": 0,
               "id": "123332a9-b505-4b2f-8319-8a270de8ea71",
               "z": 10,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Repudiation",
+                  "type": "Repudiation",
+                  "description": "User/Attacker may claim that he/she has not placed a certain order.",
+                  "mitigation": "Proper logging\nMulti-factor authentication"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Place Order"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
