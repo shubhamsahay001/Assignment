@@ -496,7 +496,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "High",
+                  "severity": "Medium",
                   "title": "Phishing",
                   "type": "Spoofing",
                   "mitigation": "AntiVirus\nFirewalls and IDS",
@@ -504,7 +504,7 @@
                 },
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "XSS",
                   "type": "Information disclosure",
                   "description": "Attackers can try to inject malicious code from the UI.",
@@ -512,7 +512,7 @@
                 },
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "Cookie stealing",
                   "type": "Elevation of privilege",
                   "description": "Attackers can try to steal cookies from Flipkart plus members",
@@ -556,7 +556,7 @@
                 },
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "XSS",
                   "type": "Information disclosure",
                   "description": "Attackers can try to inject malicious code from the UI.",
@@ -592,7 +592,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "Low",
                   "title": "Repudiation",
                   "type": "Repudiation",
                   "description": "User may claim he/she has not sent or received a certain message or mail.",
@@ -628,7 +628,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "Man in the middle attack",
                   "type": "Information disclosure",
                   "description": "Attackers can try to steal the payment credentials of users by establishing themselves between user and payment gateway.",
@@ -664,7 +664,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "SQL Injection",
                   "type": "Tampering",
                   "description": "Attackers can try to run malicious SQL commands to tamper or retrieve information.",
@@ -672,7 +672,7 @@
                 },
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "Low",
                   "title": "Repudiation",
                   "type": "Repudiation",
                   "description": "Attackers/Users can deny performing a certain database operation.",
@@ -820,7 +820,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "Repudiation",
                   "type": "Repudiation",
                   "description": "User/Attacker may claim that he/she has not placed a certain order.",
@@ -976,7 +976,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "title": "Man in the middle",
                   "type": "Information disclosure",
                   "description": "Unauthorized user can try to steal data by sitting between the customer and the Flipkart app",
